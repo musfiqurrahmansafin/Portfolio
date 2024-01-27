@@ -26,5 +26,64 @@
             </div>
         </div>
     </div>
+    <!-- ---------about--------- -->
+    <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I am Safin. I am currently studing Computer Science and Engineering at Khulna University of Enginnering & Technology, Khulna. I have passed my HSC from Adamjee Cantonment College, Dhaka and SSC from Shaheed Ramiz Uddin Cantonment School, Dhaka.</p>
+            
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Competetive Programmming</span><br>C, C++, Python</li>
+                    <li><span>Web Development</span><br>HTML, CSS, Java Script</li>
+                    <li><span>App Development</span><br>Java, Android</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2019 - 2020</span><br>President of ACC Math Club</li>
+                    <li><span>2017 - 2018</span><br>President of SRCS Math Club</li>
+                    <li><span>2017 - 2018</span><br>Vice-president of SRCS Quiz Club</li>
+                    <li><span>2017 - 2018</span><br>Secretary of SRCS Debate Club</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2026</span><br>B.Sc in Computer Science and Engineering from Khulna University of Enginnering & Technology, Khulna</li>
+                    <li><span>2020</span><br>HSC from Adamjee Cantonment College, Dhaka</li>
+                    <li><span>2018</span><br>SSC from Shaheed Ramiz Uddin Cantonment School, Dhaka</li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+<!--<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>--><script src="code.js"></script>
 </body>
 </html>
